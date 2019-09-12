@@ -23,6 +23,6 @@ Example to upload with CLI arguments::
 
   set-ddnsaws -DNSName "blog.example.com" -HostedZoneId "000aaa00"
 
-Example to upload config.josn arguments::
+Example to upload config.json arguments::
 
   set-ddnsaws

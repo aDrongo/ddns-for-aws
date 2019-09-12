@@ -1,5 +1,4 @@
 import boto3
-import sys
 import time
 
 # Requires
@@ -35,4 +34,3 @@ def SetDDNS(MyIP,DNSName,HostedZoneId):
         }
     )
     return response
-    

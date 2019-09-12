@@ -1,7 +1,7 @@
 
 
-S3Backup
-========
+DDNS For AWS
+============
 
 Tool to Sync your external IP address with an A Record in Route 53
 
@@ -19,10 +19,10 @@ Usage
 Examples
 --------
 
-Example to upload with CLI arguments
-::
+Example to upload with CLI arguments::
+
   set-ddnsaws -DNSName "blog.example.com" -HostedZoneId "000aaa00"
 
-Example to upload config.josn arguments
-::
+Example to upload config.josn arguments::
+
   set-ddnsaws

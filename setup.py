@@ -12,6 +12,8 @@ setup(
     long_description=readme,
     author='Ben Gardner',
     author_email='bgardner160@gmail.com',
+    url='https://github.com/aDrongo/ddns-for-aws/',
+    download_url='https://github.com/aDrongo/ddns-for-aws/archive/0.1.tar.gz',
     install_requires=['boto3'],
     packages=find_packages('src'),
     package_dir={'': 'src'},
